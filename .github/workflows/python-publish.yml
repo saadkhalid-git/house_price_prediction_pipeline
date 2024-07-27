@@ -6,14 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: Publish to PyPI.org
 
 on:
   release:
     types: [published]
-  push:
-    tags:
-      - 'v*.*.*'  # This pattern matches version tags like v1.0.0, v2.1.0, etc.
 
 permissions:
   contents: read
