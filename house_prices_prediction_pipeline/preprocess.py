@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import numpy as np
-from . import CONTINIOUS_FEATURES, CATEGORICAL_FEATURES, TARGET_FEATURE
+from house_prices_prediction_pipeline import CONTINIOUS_FEATURES, CATEGORICAL_FEATURES, TARGET_FEATURE
 
 
 def preprocess_data(dataset_raw):

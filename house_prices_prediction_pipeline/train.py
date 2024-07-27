@@ -1,10 +1,10 @@
 import joblib
 import numpy as np
 import pandas as pd
-from house_prices.preprocess import preprocess_data
+from preprocess import preprocess_data
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_squared_log_error
-from . import OUTPUT_DIR
+from house_prices_prediction_pipeline import OUTPUT_DIR
 
 
 def compute_rmsle(

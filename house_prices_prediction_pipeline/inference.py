@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import joblib
-from . import FEATURES, CONTINIOUS_FEATURES, CATEGORICAL_FEATURES, OUTPUT_DIR
+from house_prices_prediction_pipeline import FEATURES, CONTINIOUS_FEATURES, CATEGORICAL_FEATURES, OUTPUT_DIR
 
 
 def load_transformers(model_dir: str):
